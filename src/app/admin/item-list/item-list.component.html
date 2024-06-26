@@ -1,0 +1,27 @@
+<div class="container mt-5">
+    <h2 class="mb-4">Restaurant List</h2>
+    <table class="table">
+      <thead class="table-dark">
+        <tr>
+          <th scope="col">Restaurant Name</th>
+          <th scope="col">Menu Description</th>
+          <th scope="col">Location</th>
+          <th scope="col">Contact No.</th>
+          <th scope="col">Action</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr *ngFor="let item of items">
+          <td>{{ item.name }}</td>
+          <td>{{ item.description }}</td>
+          <td>{{ item.location }}</td>
+          <td>{{ item.contact }}</td>
+          <td> <button class="btn btn-primary btn-sm me-2" [routerLink]="['/edit', item.id]">Edit</button><button class="btn btn-danger btn-sm" (click)="deleteItem(item.id)">Delete</button></td>
+         
+        </tr>
+      </tbody>
+    </table>
+    <div class="mt-4">
+      <button class="btn btn-success" [routerLink]="['/add']">Add New Item</button>
+    </div>
+  </div>

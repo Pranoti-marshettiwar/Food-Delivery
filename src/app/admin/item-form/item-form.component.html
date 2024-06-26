@@ -1,0 +1,36 @@
+<div class="container mt-5">
+    <h2 class="mb-4">{{ id ? 'Edit' : 'Add' }} Restaurant</h2>
+    <form (ngSubmit)="saveItem()" class="needs-validation" novalidate>
+      <div class="mb-3">
+        <label for="name" class="form-label">Name:</label>
+        <input type="text" id="name" [(ngModel)]="item.name" name="name" #name="ngModel" class="form-control" required />
+        <div class="invalid-feedback" *ngIf="item.name?.errors?.required">Please enter a name.</div>
+      </div>
+      <div class="mb-3">
+        <label for="description" class="form-label">Description:</label>
+        <input type="text" id="description" [(ngModel)]="item.description" name="description" class="form-control" required/>
+        <div class="invalid-feedback">Please enter a Description.</div>
+      </div>
+      <div class="mb-3">
+        <label for="location" class="form-label">Location:</label>
+        <input type="text" id="location" [(ngModel)]="item.location" name="location" class="form-control" required/>
+        <div class="invalid-feedback">Please enter a Location.</div>
+      </div>
+      <div class="mb-3">
+        <label for="contact" class="form-label">Contact No:</label>
+        <input type="number" min="10" id="contact" [(ngModel)]="item.contact" name="contact" class="form-control" required/>
+        <div class="invalid-feedback">Please enter a Contact No.</div>
+      </div>
+     
+      <div class="mb-3">
+        <label for="menu" class="form-label">Menu Name:</label>
+        <input type="text" id="menu" [(ngModel)]="item.menu" name="menu" class="form-control" required/>
+        <div class="invalid-feedback">Please enter a Menu.</div>
+      </div>
+      
+  
+      <button type="submit" class="btn btn-primary">{{ id ? 'Update' : 'Save' }}</button>
+      <button type="button" class="btn btn-secondary ms-2" [routerLink]="['/']">Cancel</button>
+      
+    </form>
+  </div>

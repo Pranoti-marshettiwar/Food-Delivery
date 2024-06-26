@@ -1,0 +1,100 @@
+{
+  "restaurants": [
+    {
+      "id": "1",
+      "name": "AngularJS (1.0.0)",
+      "description": "June 14th, 2012",
+      "location": "pune",
+      "contact": 1233456962,
+      "menu": [
+        "chicken tikka",
+        "chicken Masala"
+      ]
+    },
+    {
+      "id": "2",
+      "name": "AngularJS (1.0.0)",
+      "description": "June 14th, 2012",
+      "location": "pune",
+      "contact": 1233456962,
+      "menu": [
+        "chicken tikka",
+        "chicken Masala"
+      ]
+    },
+    {
+      "id": "3",
+      "name": "AngularJS (1.0.0)",
+      "description": "June 14th, 2012",
+      "location": "pune",
+      "contact": 1233456962,
+      "menu": [
+        "chicken tikka",
+        "chicken Masala"
+      ]
+    },
+    {
+      "id": "4",
+      "name": "AngularJS (1.0.0)",
+      "description": "June 14th, 2012",
+      "location": "pune",
+      "contact": 1233456962,
+      "menu": [
+        "chicken tikka",
+        "chicken Masala"
+      ]
+    },
+    {
+      "id": "5",
+      "name": "AngularJS (1.0.0)",
+      "description": "June 14th, 2012",
+      "location": "pune",
+      "contact": 1233456962,
+      "menu": [
+        "chicken tikka",
+        "chicken Masala"
+      ]
+    },
+    {
+      "id": "6",
+      "name": "AngularJS (1.0.0)",
+      "description": "June 14th, 2012",
+      "location": "pune",
+      "contact": 1233456962,
+      "menu": [
+        "chicken tikka",
+        "chicken Masala"
+      ]
+    },
+    {
+      "id": "6",
+      "name": "AngularJS (1.0.0)",
+      "description": "June 14th, 2012",
+      "location": "pune",
+      "contact": 1233456962,
+      "menu": [
+        "chicken tikka",
+        "chicken Masala"
+      ]
+    },
+    {
+      "id": "74bb",
+      "name": "Punjab da Dhaba",
+      "description": "Punjabi Special",
+      "location": "Pune",
+      "contact": 1233456962,
+      "menu": [
+        "chicken tikka",
+        "chicken Masala"
+      ]
+    },
+    {
+      "id": "3a94",
+      "name": "American spice",
+      "description": "british taste",
+      "location": "Shimla",
+      "contact": "9823449646",
+      "menu": "chicken tikka,chicken Masala,chilly paneer"
+    }
+  ]
+}
