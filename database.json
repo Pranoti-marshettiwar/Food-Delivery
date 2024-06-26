@@ -2,8 +2,8 @@
   "restaurants": [
     {
       "id": "1",
-      "name": "AngularJS (1.0.0)",
-      "description": "June 14th, 2012",
+      "name": "Redisson Blu",
+      "description": "International Restaurant",
       "location": "pune",
       "contact": 1233456962,
       "menu": [
@@ -13,8 +13,8 @@
     },
     {
       "id": "2",
-      "name": "AngularJS (1.0.0)",
-      "description": "June 14th, 2012",
+      "name": "Jk Hotel",
+      "description": "Family Restaurant",
       "location": "pune",
       "contact": 1233456962,
       "menu": [
@@ -24,8 +24,8 @@
     },
     {
       "id": "3",
-      "name": "AngularJS (1.0.0)",
-      "description": "June 14th, 2012",
+      "name": "Radhe Sham",
+      "description": "Indian restaurant",
       "location": "pune",
       "contact": 1233456962,
       "menu": [
@@ -35,8 +35,8 @@
     },
     {
       "id": "4",
-      "name": "AngularJS (1.0.0)",
-      "description": "June 14th, 2012",
+      "name": "Diamond cuisine",
+      "description": "Family Restaurant",
       "location": "pune",
       "contact": 1233456962,
       "menu": [
@@ -46,8 +46,8 @@
     },
     {
       "id": "5",
-      "name": "AngularJS (1.0.0)",
-      "description": "June 14th, 2012",
+      "name": "Roaster",
+      "description": "Non-veg famous",
       "location": "pune",
       "contact": 1233456962,
       "menu": [
@@ -57,8 +57,8 @@
     },
     {
       "id": "6",
-      "name": "AngularJS (1.0.0)",
-      "description": "June 14th, 2012",
+      "name": "Puppy Da Dabba",
+      "description": "Punjabi Special",
       "location": "pune",
       "contact": 1233456962,
       "menu": [
@@ -68,8 +68,8 @@
     },
     {
       "id": "6",
-      "name": "AngularJS (1.0.0)",
-      "description": "June 14th, 2012",
+      "name": "Chinese Adda",
+      "description": "Chinese Adda",
       "location": "pune",
       "contact": 1233456962,
       "menu": [
